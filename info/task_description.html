@@ -1,0 +1,53 @@
+<div class="story">
+    A crystal or crystalline solid is a solid material whose constituents, such as atoms, molecules or ions, are
+    arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.
+    The scientific definition of a "crystal" is based on the microscopic arrangement of atoms inside it,
+    called the crystal structure. A crystal is a solid where the atoms form a periodic arrangement.
+
+</div>
+<p>
+    It's very important to check crystal quality when you are growing and harvest them.
+    For the first quick checking we will use various random atom lines from crystals.
+    Our crystal contains two atoms - "X" (Xenatom) and "Z" (Zorium).
+</p>
+
+<p>
+    You are given a random line from crystal lattice as a sequence of letters "X" and "Z".
+    The good line should have the periodic arrangement as ["X", "Z", "X", "Z"].
+    If any atoms are repeated, then this crystal is broken.
+</p>
+
+<p style="text-align: center;">
+    <img class="for_info_only" title="rows" src="{{MEDIA}}rows.svg" alt="rows"/>
+    <img class="for_editor_only" title="rows" src="{{MEDIA}}rows.svg" alt="rows" width="380px"/>
+</p>
+
+<p>
+    <strong>Input: </strong> Atom line as a list of strings.
+</p>
+
+<p>
+    <strong>Output: </strong> Is a line good or not as a boolean.
+</p>
+
+
+<div class="for_info_only">
+
+    <p>
+        <strong>Example:</strong>
+    </p>
+    <textarea data-code="python">check_line(["X", "Z", "X"]) == True
+check_line(["X", "Z", "X", "X"]) == False</textarea>
+</div>
+
+<p class="for_info_only">
+    <strong>How it is used: </strong>
+    This is first simple data structure and here you can learn how to work with a list.
+    And simple concept -- don't try to solve any problem in forehead. Think.
+</p>
+
+<p>
+    <strong>Precondition:</strong><br>
+    1 &lt; len(line) &le; 1000<br>
+    all(ch in "XZ" for ch in line)
+</p>

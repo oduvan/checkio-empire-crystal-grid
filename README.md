@@ -1,4 +1,4 @@
-crFarm-1-2-crystal-grid
-=======================
+crFarm-1-1-crystal-row
+======================
 
-Crystal Farm 1.2 "Crystal Grid"
+Crystal Farm 1.1 "Crystal Rows"
