@@ -5,7 +5,7 @@ import settings_env
 from tests import TESTS
 
 cover = """def cover(f, data):
-    return [[str(ch) for ch in row] for row in data]
+    return f([[str(ch) for ch in row] for row in data])
 """
 
 
