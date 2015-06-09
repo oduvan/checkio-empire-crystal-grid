@@ -19,6 +19,3 @@ element, the crystal is unusable. For example:
  ["Z", "Z", "Z"],
  ["X", "Z", "X"]] is bad
 ```
-
-
-![Rows](grid.svg)
